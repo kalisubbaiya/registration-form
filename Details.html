@@ -1,0 +1,188 @@
+<html>
+	<head>
+		<title>Registration form</title>
+		<style>
+			form{
+				padding:0px 300px 0px 300px;
+			}
+			input{
+				float:right;
+			}
+			body{
+				background-color:rgb(215,223,227);
+				font-size:25px;
+			}
+			.right{
+				float:right;
+			}
+			select{
+				float:right;
+			}
+			.width{
+				width:250px;
+			}
+			.long{
+				width:110px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1> <center>REGISTRATION FORM</center> </h1>
+		<form>
+			<fieldset>
+				<legend> <i>STUDENT DETAILS</i> </legend>
+				<div>
+					<label for="Iname">First name <br>(in Block letters):</label>
+					<input type="text" name="Iname" placeholder="Enter your First name" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Iname">Last name <br>(in Block letters):</label>
+					<input type="text" name="Iname" placeholder="Enter your last name" class="width"><br><br>
+				</div>
+				<div>
+					<label for="If.name:">Father's name <br> (in Block letters):</label>
+					<input type="text" name="If.name"  placeholder="Enter your Father's name" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Im.Name">Mother's Name <br> (in Block letters):</label>
+					<input type="name" name="Im.Name" placeholder="Enter your Mother's name"  class="width"><br><br>
+				</div>
+				<div>
+					<label for="Igender">Gender:</label>
+					<label for="Igender" class="right">Others</label>
+					<input type="radio" name="Igender">
+					<label for="Igender" class="right">Female</label>
+					<input type="radio" name="Igender">
+					<label for="Igender" class="right">Male</label>
+					<input type="radio" name="Igender"><br><br>
+				</div>
+				<div>
+					<label for="Ibirth">Date of Birth:</label>
+					<input type="date" name="Ibirth" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Istatus">Marital Status:</label>
+					<input type="text" name="Istatus" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Inational">Nationality:</label>
+					<input type="text" name="Inational" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Icity">City Name:</label>
+					<input type="text" name="Icity" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Ivillage">Village:</label>
+					<input type="text" name="Iname" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Inear">Near by:</label>
+					<input type="text" name="Inear" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Idoor">Door No.:</label>
+					<input type="text" name="Idoor" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Istreet">Street Name:</label>
+					<input type="text" name="IStreet" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Ipincode">Pin code:</label>
+					<input type="number" name="Ipincode" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Ilanguage">Language Known:</label>
+					<label for="Ilanguage" class="right">Hindi</label>
+					<input type="checkbox" name="Ilanguage">
+					<label for="Ilanguage" class="right">English</label>
+					<input type="checkbox" name="Ilanguage">
+					<label for="Ilanguage" class="right">Tamil</label>
+					<input type="checkbox" name="Ilanguage"><br><br>
+				</div>
+				<div>
+					<label for="Icourse">Degree:</label>
+					<select name="Icourse" id="Icourse" class="width">
+						<option value></option>
+						<option value="B.E">B.E</option>
+						<option value="BCA">BCA</option>
+						<option value="B.A">BA</option>
+						<option value="BSc">BSc</option>
+					</select><br><br>
+				</div>
+				<div>
+					<label for="Idegree">Department:</label>
+					<select name="Idegree" id="Idegree" class="width">
+						<option value></option>
+						<optgroup label="B.E">
+							<option value="Mechanical">Mechanical</option>
+							<option value="Civil">Civil</option>
+							<option value="Electronical & communication">Electronical & communication</option>
+							<option value="Electrical & Electronical">Electrical & Electronical</option>
+							<option value="Computer science">Computer science</option>
+						</optgroup>
+						<optgroup label="BCA">
+							<option value="BCA">BCA</option>
+						</optgroup>
+						<optgroup label="B.A">
+							<option value="Tamil">Tamil</option>
+							<option value="English">English</option>
+							<option value="Philosophy">Philosophy</option>
+							<option value="Economics">Economics</option>
+							<option value="History">History</option>
+						</optgroup>
+						<optgroup label="BSc">
+							<option value="Agriculture">Agriculture</option>
+							<option value="Maths">Maths</option>
+							<option value="Zoology">Zoology</option>
+							<option value="Forestry">Forestry</option>
+							<option value="Nursing">Nursing</option>
+						</optgroup>
+					</select><br><br>
+				</div>
+				<div>
+					<label for="Icollege">College:</label>
+					<input type="text" name="Icollege" class="width" placeholder="Enter Your College Name"><br><br>
+				</div>
+				<div>
+					<label for="Iyear">Year of passing:</label>
+					<input type="text" name="Iyear" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Ipercent">Percentage:</label>
+					<input type="range" name="Ipercent" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Idisability">Are you disabled person?:</label>
+					<label for="aidisability" class="right">No</label>
+					<input type="radio" name="Idisability" class="long">
+					<label for="aidisability" class="right">Yes</label>
+					<input type="radio" name="Idisability" class="long"><br><br>
+				</div>
+				<div>
+					<label for="aidisability">If Disabled,please attach the document</label>
+					<input type="file" name="Idisability" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Imail">Gmail:</label>
+					<input type="email" name="Imail" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Ipassword">Password:</label>
+					<input type="password" name="Ipassword" class="width"><br><br>
+				</div>
+				<div>
+					<label for="Imobile">Mobile.No:</label>
+					<input type="number" name="Imobile" class="width"><br><br>
+				</div>
+				<div>
+				<center>
+					<input type="submit" style="float:none" name="Isubmit">
+					<input type="reset" style="float:none" name="Ireset">
+				</center>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
